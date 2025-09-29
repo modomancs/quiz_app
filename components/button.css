@@ -1,3 +1,10 @@
+:root {
+  --background-color: dodgerblue;
+  --border-color: lightgreen;
+  --txt-color: midnightblue;
+  --border: 5px solid black;
+}
+
 button:hover {
   background-color: yellow;
   color: lightcoral;

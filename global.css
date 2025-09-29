@@ -1,0 +1,23 @@
+:root {
+  --background-color: dodgerblue;
+  --border-color: lightgreen;
+  --txt-color: midnightblue;
+  --border: 5px solid black;
+}
+
+summary {
+  list-style-type: none;
+  border: var(--border);
+  display: inline-block;
+  text-align: center;
+  padding: 5px 10px;
+  background-color: blue;
+  color: khaki;
+}
+summary:hover {
+  background-color: khaki;
+  color: blue;
+}
+details {
+  text-align: center;
+}
