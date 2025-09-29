@@ -1,5 +1,5 @@
-@import url(card.css);
-@import url(button.css);
+@import url(components/card.css);
+@import url(components/button.css);
 @import url(components/profile.css);
 
 :root {

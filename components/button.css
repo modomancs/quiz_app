@@ -1,0 +1,11 @@
+button:hover {
+  background-color: yellow;
+  color: lightcoral;
+}
+.card_wrong:active {
+  background-color: red;
+}
+
+.card_correct:active {
+  background-color: lightgreen;
+}
