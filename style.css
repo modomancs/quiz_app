@@ -1,3 +1,6 @@
+@import url(card.css);
+@import url(button.css);
+
 :root {
   --background-color: dodgerblue;
   --border-color: lightgreen;
@@ -14,6 +17,9 @@ body {
   align-items: center;
   padding-bottom: 80px;
 }
+body ul {
+  list-style-type: none;
+}
 
 .header {
   display: flex;
@@ -26,50 +32,6 @@ body {
   border-color: var(--border-color);
   background-color: var(--border-color);
   color: var(--txt-color);
-}
-
-.card_one {
-  border: var(--border);
-  border-color: var(--border-color);
-  color: var(--txt-color);
-  background-color: var(--border-color);
-  padding: 10px;
-}
-
-.card_two {
-  margin-top: 10px;
-  border: var(--border);
-  border-color: var(--border-color);
-  color: var(--txt-color);
-  background-color: var(--border-color);
-  padding: 10px;
-}
-
-.card_three {
-  margin-top: 10px;
-  border: var(--border);
-  border-color: var(--border-color);
-  color: var(--txt-color);
-  background-color: var(--border-color);
-  padding: 10px;
-}
-
-.card_four {
-  margin-top: 10px;
-  border: var(--border);
-  border-color: var(--border-color);
-  color: var(--txt-color);
-  background-color: var(--border-color);
-  padding: 10px;
-}
-
-.card_five {
-  margin-top: 10px;
-  border: var(--border);
-  border-color: var(--border-color);
-  color: var(--txt-color);
-  background-color: var(--border-color);
-  padding: 10px;
 }
 
 .footer {

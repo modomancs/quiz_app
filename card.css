@@ -1,0 +1,60 @@
+:root {
+  --background-color: dodgerblue;
+  --border-color: lightgreen;
+  --txt-color: midnightblue;
+  --border: 5px solid black;
+}
+
+.card_one {
+  border: var(--border);
+  border-color: var(--border-color);
+  color: var(--txt-color);
+  background-color: var(--border-color);
+  padding: 10px;
+}
+
+.card_two {
+  margin-top: 10px;
+  border: var(--border);
+  border-color: var(--border-color);
+  color: var(--txt-color);
+  background-color: var(--border-color);
+  padding: 10px;
+}
+
+.card_three {
+  margin-top: 10px;
+  border: var(--border);
+  border-color: var(--border-color);
+  color: var(--txt-color);
+  background-color: var(--border-color);
+  padding: 10px;
+}
+
+.card_four {
+  margin-top: 10px;
+  border: var(--border);
+  border-color: var(--border-color);
+  color: var(--txt-color);
+  background-color: var(--border-color);
+  padding: 10px;
+}
+
+.card_five {
+  margin-top: 10px;
+  border: var(--border);
+  border-color: var(--border-color);
+  color: var(--txt-color);
+  background-color: var(--border-color);
+  padding: 10px;
+}
+
+.card {
+  position: relative;
+  padding: 40px;
+}
+.bookmark {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+}
