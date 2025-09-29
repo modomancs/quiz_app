@@ -1,6 +1,6 @@
 @import url(card.css);
 @import url(button.css);
-@import url(profile.css);
+@import url(components/profile.css);
 
 :root {
   --background-color: dodgerblue;
