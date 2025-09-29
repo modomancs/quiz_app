@@ -1,0 +1,7 @@
+.category {
+  font-family: cursive;
+  font-size: 12px;
+  display: inline-block;
+  background-color: rgb(28, 157, 243);
+  padding: 4px;
+}
