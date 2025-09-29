@@ -51,10 +51,28 @@
 
 .card {
   position: relative;
-  padding: 40px;
+  padding: 40px 15px 15px 15px;
+  width: 100%;
+  box-sizing: border-box;
 }
 .bookmark {
   position: absolute;
   top: 0px;
   right: 0px;
+}
+
+.card_list {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+.card_list button {
+  font-size: 3vw;
+  padding: 10px;
+  white-space: normal;
+  word-break: keep-all;
+  flex: 1 1 calc(25% - 10px);
+  min-width: 0;
 }
