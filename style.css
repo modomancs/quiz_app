@@ -1,5 +1,6 @@
 @import url(card.css);
 @import url(button.css);
+@import url(profile.css);
 
 :root {
   --background-color: dodgerblue;
@@ -48,4 +49,20 @@ body ul {
   justify-content: space-evenly;
   width: 100%;
   align-items: center;
+}
+summary {
+  list-style-type: none;
+  border: var(--border);
+  display: inline-block;
+  text-align: center;
+  padding: 5px 10px;
+  background-color: blue;
+  color: khaki;
+}
+summary:hover {
+  background-color: khaki;
+  color: blue;
+}
+details {
+  text-align: center;
 }

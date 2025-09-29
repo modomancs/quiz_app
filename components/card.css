@@ -1,0 +1,78 @@
+:root {
+  --background-color: dodgerblue;
+  --border-color: lightgreen;
+  --txt-color: midnightblue;
+  --border: 5px solid black;
+}
+
+.card_one {
+  border: var(--border);
+  border-color: var(--border-color);
+  color: var(--txt-color);
+  background-color: var(--border-color);
+  padding: 10px;
+}
+
+.card_two {
+  margin-top: 10px;
+  border: var(--border);
+  border-color: var(--border-color);
+  color: var(--txt-color);
+  background-color: var(--border-color);
+  padding: 10px;
+}
+
+.card_three {
+  margin-top: 10px;
+  border: var(--border);
+  border-color: var(--border-color);
+  color: var(--txt-color);
+  background-color: var(--border-color);
+  padding: 10px;
+}
+
+.card_four {
+  margin-top: 10px;
+  border: var(--border);
+  border-color: var(--border-color);
+  color: var(--txt-color);
+  background-color: var(--border-color);
+  padding: 10px;
+}
+
+.card_five {
+  margin-top: 10px;
+  border: var(--border);
+  border-color: var(--border-color);
+  color: var(--txt-color);
+  background-color: var(--border-color);
+  padding: 10px;
+}
+
+.card {
+  position: relative;
+  padding: 40px 15px 15px 15px;
+  width: 100%;
+  box-sizing: border-box;
+}
+.bookmark {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+}
+
+.card_list {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+.card_list button {
+  font-size: 3vw;
+  padding: 10px;
+  white-space: normal;
+  word-break: keep-all;
+  flex: 1 1 calc(25% - 10px);
+  min-width: 0;
+}

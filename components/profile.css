@@ -1,0 +1,31 @@
+:root {
+  --background-color: dodgerblue;
+  --border-color: lightgreen;
+  --txt-color: midnightblue;
+  --border: 5px solid black;
+}
+
+.prof {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+}
+.profile_name {
+  border: var(--border);
+  background-color: var(--border-color);
+  color: var(--txt-color);
+  padding: 10px;
+}
+.profile_pic {
+  display: flex;
+  object-fit: cover;
+  width: 200px;
+  border: var(--border);
+  background-color: var(--border-color);
+}
+
+.about_me {
+  border: var(--border);
+  background-color: var(--border-color);
+}
