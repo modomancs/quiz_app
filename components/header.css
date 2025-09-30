@@ -17,3 +17,9 @@
   background-color: var(--border-color);
   color: var(--txt-color);
 }
+
+.bookmark_title {
+  border: var(--border);
+  background-color: var(--border-color);
+  padding: 10px;
+}
