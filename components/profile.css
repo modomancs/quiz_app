@@ -69,3 +69,21 @@
   color: black;
   text-decoration: none;
 }
+
+.settings {
+  margin-top: 10px;
+  border: var(--border);
+  background-color: var(--border-color);
+  padding: 10px;
+  position: relative;
+}
+
+.settings_title::after {
+  position: absolute;
+  content: "";
+  background-color: red;
+  height: 4px;
+  width: 135px;
+  top: 70px;
+  left: 11px;
+}
