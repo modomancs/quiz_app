@@ -12,10 +12,10 @@
 }
 
 .profile_pic {
-  width: 200px;
-  height: 200px;
+  width: 135px;
+  height: 135px;
   object-fit: cover;
-  border: 1px solid black;
+  border: var(--border);
   background-color: var(--border-color);
 }
 
@@ -26,20 +26,20 @@
 }
 
 .profile_name {
-  border: 1px solid black;
+  border: var(--border);
   background-color: var(--border-color);
   padding: 5px 10px;
   width: fit-content;
 }
 
 .about {
-  border: 1px solid black;
+  border: var(--border);
   background-color: var(--border-color);
-  padding: 5px 10px;
+  padding: 2px 10px;
 }
 
 .input_text {
-  width: 200px;
+  width: 100%;
 }
 
 .profile_images {
