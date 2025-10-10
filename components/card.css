@@ -54,6 +54,8 @@
   padding: 40px 15px 15px 15px;
   width: 100%;
   box-sizing: border-box;
+  transition: background-color 0.5s ease, color 0.5s ease,
+    border-color 0.5s ease;
 }
 .bookmark {
   position: absolute;
@@ -75,4 +77,9 @@
   word-break: keep-all;
   flex: 1 1 calc(25% - 10px);
   min-width: 0;
+}
+
+.card_one.dark .card_two.dark .card_three.dark .card_four.dark .card_five.dark {
+  background-color: rgb(37, 57, 0);
+  color: rgb(182, 176, 159);
 }

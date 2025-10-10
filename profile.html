@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
     <title>Quiz App</title>
+    <script src="js/index.js" defer></script>
   </head>
   <body>
     <header class="header">
@@ -52,7 +53,14 @@
       <h2 class="profile_settings settings_title">Settings🚨</h2>
       <h2 class="profile_darkmode">Dark mode</h2>
       <label for="Darkmodeslider">OFF ON</label>
-      <input type="range" id="Darkmodeslider" min="0" max="1" value="0" />
+      <input
+        type="range"
+        id="Darkmodeslider"
+        data-js="darkmode"
+        min="0"
+        max="1"
+        value="0"
+      />
     </div>
     <footer class="footer">
       <nav class="nav">
