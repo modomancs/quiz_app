@@ -21,3 +21,8 @@ summary:hover {
 details {
   text-align: center;
 }
+
+body.dark {
+  background-color: rgb(36, 7, 80);
+  color: white;
+}
