@@ -16,3 +16,14 @@ button:hover {
 .card_correct:active {
   background-color: lightgreen;
 }
+
+.bookmark {
+  background: transparent;
+  border: none;
+  padding: 0px;
+  cursor: pointer;
+}
+
+.answer {
+  display: none;
+}

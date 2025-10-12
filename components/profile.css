@@ -89,3 +89,38 @@
   top: 70px;
   left: 11px;
 }
+
+[data-js="dark"].dark {
+  background-color: rgb(37, 57, 0) !important;
+  color: rgb(182, 176, 159) !important;
+  border-color: rgb(182, 176, 159) !important;
+}
+
+[data-js="dark"].dark h2,
+[data-js="dark"].dark h3,
+[data-js="dark"].dark p,
+[data-js="dark"].dark b {
+  color: rgb(182, 176, 159);
+}
+
+[data-js="dark"].dark input {
+  background-color: rgb(37, 57, 0);
+  color: rgb(182, 176, 159);
+  border-color: rgb(182, 176, 159);
+}
+
+[data-js="dark"].dark .profile_pic {
+  border-color: rgb(182, 176, 159);
+  background-color: #4d5341;
+}
+
+[data-js="dark"].dark .settings_title::after {
+  background-color: darkred;
+}
+[data-js="dark"].dark .prof,
+[data-js="dark"].dark .profile_info {
+  background-color: #4d5341;
+  border-color: #4d5341;
+  padding: 10px;
+  border: var(--border);
+}

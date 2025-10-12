@@ -4,17 +4,50 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
-    <script src="js/index.js" defer></script>
+    <script src="js/add.js" defer></script>
     <title>Quiz App</title>
   </head>
   <body>
     <header class="header">
       <h1 class="header_title">📑Quiz App📑</h1>
     </header>
+
     <h2 class="bookmark_title">Add your favorite Questions!</h2>
-   
-   
-  <footer class="footer">
+    <main>
+      <form class="add_form card" data-js="questionForm">
+        <p class="category">Your question:</p>
+        <textarea
+          maxlength="150"
+          placeholder="Type your question..."
+          data-js="questionInput"
+          required
+        ></textarea>
+        <p class="category counter" data-js="questionCount">
+          150 characters left
+        </p>
+        <p class="category">Your answer:</p>
+        <textarea
+          maxlength="150"
+          placeholder="Type your answer..."
+          data-js="answerInput"
+          required
+        ></textarea>
+        <p class="category counter" data-js="answerCount">
+          150 characters left
+        </p>
+        <p class="category">Tag:</p>
+        <input
+          type="text"
+          maxlength="50"
+          placeholder="e.g. Geography"
+          data-js="tagInput"
+        />
+        <button type="submit" class="button-show-answer">Submit</button>
+      </form>
+      <div data-js="questionsContainer"></div>
+    </main>
+
+    <footer class="footer">
       <nav class="nav">
         <a class="home_page" href="index.html">
           <img src="images/home .png" alt="home" width="50" />
@@ -26,12 +59,9 @@
           <img src="images/plus.png" alt="add" width="50" />
         </a>
         <a class="profile_page" href="profile.html">
-          <img src="images/profile filled.png" alt="Profile" width="50" />
+          <img src="images/profile.png" alt="Profile" width="50" />
         </a>
       </nav>
     </footer>
   </body>
-</html>
-
-</body>
 </html>

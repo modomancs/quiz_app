@@ -5,3 +5,64 @@
   background-color: rgb(28, 157, 243);
   padding: 4px;
 }
+
+.add_form {
+  margin-top: 10px;
+  border: var(--border);
+  border-color: var(--border-color);
+  background-color: var(--border-color);
+  color: var(--txt-color);
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  box-sizing: border-box;
+  width: 100%;
+}
+
+.add_form textarea,
+.add_form input[type="text"] {
+  width: 100%;
+  border: 3px solid var(--txt-color);
+  border-radius: 8px;
+  padding: 10px;
+  font-size: 1rem;
+  box-sizing: border-box;
+  background-color: white;
+  color: var(--txt-color);
+}
+
+.add_form textarea:focus,
+.add_form input[type="text"]:focus {
+  outline: none;
+  border-color: var(--background-color);
+  box-shadow: 0 0 5px var(--background-color);
+}
+
+.add_form .category {
+  font-weight: bold;
+  color: var(--txt-color);
+}
+
+.add_form .counter {
+  text-align: right;
+  font-size: 0.9rem;
+  color: rgb(0, 70, 70);
+  margin: -8px 0 5px;
+}
+
+.add_form .button-show-answer {
+  align-self: center;
+  background-color: var(--background-color);
+  color: white;
+  border: 3px solid var(--txt-color);
+  border-radius: 10px;
+  padding: 10px 25px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.add_form .button-show-answer:hover {
+  background-color: var(--txt-color);
+}
