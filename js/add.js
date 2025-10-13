@@ -1,3 +1,10 @@
+// for darkmode again so i dont break index.js code
+const body = document.body;
+const isDark = localStorage.getItem("darkmode") === "1";
+if (isDark) {
+  body.classList.add("dark");
+}
+
 const answerButtons = document.querySelectorAll('[data-js="answerButton"]');
 
 answerButtons.forEach((button) => {
@@ -29,7 +36,7 @@ answerInput.addEventListener("input", () => {
 });
 
 let addedCount = 0;
-// (e) can be used the same as (event). Short version.
+// (e) can be used the same as (event). Short version. and trim removes spaces.
 form.addEventListener("submit", (e) => {
   e.preventDefault();
   const question = questionInput.value.trim();

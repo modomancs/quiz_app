@@ -2,12 +2,14 @@ const body = document.body;
 const darkmode = document.querySelector('[data-js="darkmode"]');
 const darkElements = document.querySelectorAll('[data-js="dark"]');
 
+//this is for darkmode. el is short for elements
+
 function toggleDarkmode(enable) {
   darkElements.forEach((el) => {
     el.classList.toggle("dark", enable);
   });
 }
-
+//this saves darkmode in to other pages, so when you switch or refresh it stays.
 const isDark = localStorage.getItem("darkmode") === "1";
 body.classList.toggle("dark", isDark);
 toggleDarkmode(isDark);
@@ -23,6 +25,7 @@ if (darkmode) {
   });
 }
 
+// this is for the bookmark interactivity. pretty much means when you click it, it looks which bookmark image is used and switches to the other one.
 const bookmarkButton = document.querySelector('[data-js="bookmarkButton"]');
 
 if (bookmarkButton) {
