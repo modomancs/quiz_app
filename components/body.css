@@ -23,3 +23,15 @@ body.dark {
   background-color: rgb(36, 7, 80);
   color: rgb(182, 176, 159);
 }
+
+body.dark textarea,
+body.dark input[type="text"] {
+  background-color: #2b2b2b;
+  color: #e5e5e5;
+  border: 2px solid #888;
+}
+
+body.dark textarea::placeholder,
+body.dark input[type="text"]::placeholder {
+  color: #aaa;
+}
