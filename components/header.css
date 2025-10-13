@@ -5,6 +5,11 @@
   --border: 5px solid black;
 }
 
+body.dark {
+  --background-color: rgb(37, 57, 0);
+  --border-color: rgb(37, 57, 0);
+  --txt-color: white;
+}
 .header {
   display: flex;
   justify-content: center;

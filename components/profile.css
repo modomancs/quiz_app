@@ -9,6 +9,9 @@
   display: flex;
   align-items: flex-start;
   gap: 20px;
+  background-color: transparent;
+  border: none;
+  padding: 0;
 }
 
 .profile_pic {
@@ -23,6 +26,8 @@
   display: flex;
   flex-direction: column;
   gap: 10px;
+  border: none;
+  background-color: transparent;
 }
 
 .profile_name {
@@ -111,7 +116,6 @@
 
 [data-js="dark"].dark .profile_pic {
   border-color: rgb(182, 176, 159);
-  background-color: #4d5341;
 }
 
 [data-js="dark"].dark .settings_title::after {
@@ -119,8 +123,14 @@
 }
 [data-js="dark"].dark .prof,
 [data-js="dark"].dark .profile_info {
-  background-color: #4d5341;
-  border-color: #4d5341;
+  background-color: rgba(168, 22, 22, 0.05);
+  border: none;
+  border-radius: 10px;
   padding: 10px;
-  border: var(--border);
+}
+
+[data-js="dark"].dark .prof,
+[data-js="dark"].dark .profile_info {
+  background-color: transparent;
+  border: none;
 }
