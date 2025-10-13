@@ -24,7 +24,19 @@ if (darkmode) {
     localStorage.setItem("darkmode", enable ? "1" : "0");
   });
 }
+// this is for show answer button to work
+const answerButtons = document.querySelectorAll('[data-js="answerButton"]');
 
+answerButtons.forEach((button) => {
+  button.addEventListener("click", () => {
+    const answer = button.nextElementSibling;
+    if (answer.style.display === "none" || answer.style.display === "") {
+      answer.style.display = "block";
+    } else {
+      answer.style.display = "none";
+    }
+  });
+});
 // this is for the bookmark interactivity. pretty much means when you click it, it looks which bookmark image is used and switches to the other one.
 const bookmarkButton = document.querySelector('[data-js="bookmarkButton"]');
 
