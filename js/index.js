@@ -22,6 +22,10 @@ if (darkmode) {
     body.classList.toggle("dark", enable);
     toggleDarkmode(enable);
     localStorage.setItem("darkmode", enable ? "1" : "0");
+    //faster way. the other way is if(enable){
+    // localStorage.setItem("darkmode", "1");
+    //} else{
+    //localStorage.setItem("darkmode", "0");}
   });
 }
 // this is for show answer button to work
