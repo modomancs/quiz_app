@@ -84,3 +84,16 @@ body.dark .card,
   border-color: rgb(182, 176, 159);
   color: rgb(182, 176, 159);
 }
+
+.card_default {
+  border: var(--border);
+  border-color: var(--border-color);
+  color: var(--txt-color);
+  background-color: var(--border-color);
+  padding: 10px;
+  margin-top: 10px;
+}
+
+.add_form {
+  margin-bottom: 20px;
+}
